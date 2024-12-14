@@ -14,15 +14,18 @@ import Foundation
 /*
 findDwarf()
 findAlphaberCount()
- priceOfTruck()
+priceOfTruckParking()
 */
 
 /// 2일차
 /*
 isPalindrome()
- //tomorrowGameSet()
+tomorrowGameSet()
+getROT13()
 */
 
 
-getROT13()
+
+
+
 

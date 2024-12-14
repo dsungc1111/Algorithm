@@ -23,11 +23,51 @@ import Foundation
  */
 
 
-let truck = readLine()!.split(separator: " ").map { Int($0)! }
+//func priceOfTruck() {
+//    
+//    let truck = readLine()!.components(separatedBy: " ").map { Int($0)! }
+//    let A = truck[0], B = truck[1], C = truck[2]
+//    
+//    var cnts = [Int](repeating: 0, count: 101)
+//    var sum = 0
+//    
+//    for _ in 0..<3 {
+//        let input = readLine()!.components(separatedBy: " ").map { Int($0)! }
+//        (input[0]..<input[1]).forEach { cnts[$0] += 1 }
+//    }
+//    
+//    
+//  
+//}
 
 
-func priceOfTruck() {
+func priceOfTruckParking() {
+    let priceTag = readLine()!.components(separatedBy: " ").map { Int($0)! }
+    let A = priceTag[0], B = priceTag[1], C = priceTag[2]
     
-
-    print(truck)
+    var cnts = [Int](repeating: 0, count: 101)
+    var sum = 0
+    
+    for _ in 0..<3 {
+        let input = readLine()!.components(separatedBy: " ").map { Int($0)! }
+        
+        for i in input[0]..<input[1] {
+            cnts[i] += 1
+        }
+    }
+    
+    
+    for i in cnts {
+        if i == 1 {
+            sum += i*A
+        } else if i == 2 {
+            sum += i*B
+        } else if i == 3 {
+            sum += i*C
+        }
+    }
+    
+    print(sum)
+    
 }
+
