@@ -7,7 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B2358902D0D4857003544B8 /* Palindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B23588F2D0D4857003544B8 /* Palindrome.swift */; };
+		8B2358922D0D4C62003544B8 /* BasketBall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2358912D0D4C62003544B8 /* BasketBall.swift */; };
+		8B2358942D0D5730003544B8 /* ROT13.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2358932D0D5730003544B8 /* ROT13.swift */; };
 		8B9222172D0BF5CA0035D1E7 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9222162D0BF5CA0035D1E7 /* main.swift */; };
+		8B92221F2D0D40690035D1E7 /* FindFakeDwarf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B92221E2D0D40690035D1E7 /* FindFakeDwarf.swift */; };
+		8B9222212D0D40FB0035D1E7 /* AlphabetCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9222202D0D40FB0035D1E7 /* AlphabetCount.swift */; };
+		8B9222232D0D41AB0035D1E7 /* TruckParking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9222222D0D41AB0035D1E7 /* TruckParking.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +29,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8B23588F2D0D4857003544B8 /* Palindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palindrome.swift; sourceTree = "<group>"; };
+		8B2358912D0D4C62003544B8 /* BasketBall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketBall.swift; sourceTree = "<group>"; };
+		8B2358932D0D5730003544B8 /* ROT13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ROT13.swift; sourceTree = "<group>"; };
 		8B9222132D0BF5CA0035D1E7 /* Study */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Study; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B9222162D0BF5CA0035D1E7 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		8B92221E2D0D40690035D1E7 /* FindFakeDwarf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindFakeDwarf.swift; sourceTree = "<group>"; };
+		8B9222202D0D40FB0035D1E7 /* AlphabetCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphabetCount.swift; sourceTree = "<group>"; };
+		8B9222222D0D41AB0035D1E7 /* TruckParking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruckParking.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +50,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B23588E2D0D481A003544B8 /* Day2 */ = {
+			isa = PBXGroup;
+			children = (
+				8B23588F2D0D4857003544B8 /* Palindrome.swift */,
+				8B2358912D0D4C62003544B8 /* BasketBall.swift */,
+				8B2358932D0D5730003544B8 /* ROT13.swift */,
+			);
+			path = Day2;
+			sourceTree = "<group>";
+		};
 		8B92220A2D0BF5CA0035D1E7 = {
 			isa = PBXGroup;
 			children = (
@@ -58,8 +80,20 @@
 			isa = PBXGroup;
 			children = (
 				8B9222162D0BF5CA0035D1E7 /* main.swift */,
+				8B92221D2D0D401D0035D1E7 /* Day1 */,
+				8B23588E2D0D481A003544B8 /* Day2 */,
 			);
 			path = Study;
+			sourceTree = "<group>";
+		};
+		8B92221D2D0D401D0035D1E7 /* Day1 */ = {
+			isa = PBXGroup;
+			children = (
+				8B92221E2D0D40690035D1E7 /* FindFakeDwarf.swift */,
+				8B9222202D0D40FB0035D1E7 /* AlphabetCount.swift */,
+				8B9222222D0D41AB0035D1E7 /* TruckParking.swift */,
+			);
+			path = Day1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,7 +154,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B9222232D0D41AB0035D1E7 /* TruckParking.swift in Sources */,
+				8B2358902D0D4857003544B8 /* Palindrome.swift in Sources */,
+				8B2358922D0D4C62003544B8 /* BasketBall.swift in Sources */,
 				8B9222172D0BF5CA0035D1E7 /* main.swift in Sources */,
+				8B9222212D0D40FB0035D1E7 /* AlphabetCount.swift in Sources */,
+				8B2358942D0D5730003544B8 /* ROT13.swift in Sources */,
+				8B92221F2D0D40690035D1E7 /* FindFakeDwarf.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
