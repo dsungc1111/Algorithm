@@ -25,8 +25,8 @@ getROT13()
 */
 
 //findRecord()
-findMaxTemp()
-
+//findMaxTemp()
+findPocketmon()
 
 
 
