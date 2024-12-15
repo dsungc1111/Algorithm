@@ -24,7 +24,8 @@ tomorrowGameSet()
 getROT13()
 */
 
-
+//findRecord()
+findMaxTemp()
 
 
 
