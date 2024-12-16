@@ -26,7 +26,11 @@ getROT13()
 
 //findRecord()
 //findMaxTemp()
-findPocketmon()
+//findPocketmon()
+
+//fashionKing()
+//sumOfNums()
+ThingsTodo()
 
 
 
