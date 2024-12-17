@@ -11,30 +11,23 @@ import Foundation
 func sumOfNums() {
     
     let N = Int(readLine()!)!
-    
     var arr = [Int]()
     
-   
-    var start = 1
+    for i in 1...N { arr.append(i) }
+    var end = 0
+    var sum = 0
     var count = 0
-    var sum = 1
-    var end = 1
-    
-    while start <= N {
+   
+    for start in 0..<N {
         
-        if sum == N {
-            count += 1
-            sum -= start
-            start += 1
-        } else if sum < N {
+        while sum < N && end < N {
+            sum += arr[end]
             end += 1
-            sum += end
-        } else {
-            sum -= start
-            start += 1
         }
         
+        if sum == N { count += 1 }
         
+        sum -= arr[start]
     }
     print(count)
 }

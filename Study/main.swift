@@ -24,13 +24,18 @@ tomorrowGameSet()
 getROT13()
 */
 
+// 3일차
 //findRecord()
 //findMaxTemp()
 //findPocketmon()
 
+// 4일차
 //fashionKing()
 //sumOfNums()
-ThingsTodo()
+//ThingsTodo()
 
 
+// 5일차
+//ThingsTodo()
+sumOfNumberss()
 

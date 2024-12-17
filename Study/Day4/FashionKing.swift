@@ -11,29 +11,26 @@ import Foundation
 func fashionKing() {
   
     let testCase = Int(readLine()!)!
-    var count = 0
+   
     
     for _ in 0..<testCase {
-        var dic = [String : [String]]()
-        let n = Int(readLine()!)!
         
-        for _ in 0..<n {
-            
-            let input = readLine()!.components(separatedBy: " ").map { String($0) }
-            let clothes = input[0], category = input[1]
-            
-            if dic.keys.contains(category) {
-                dic[category]!.append(clothes)
-            } else {
-                dic[category] = [clothes]
-            }
+        let N = Int(readLine()!)!
+        
+        var categoryCounts = [String : Int]()
+        
+        
+        for _ in 0..<N {
+            let input = readLine()!.split(separator: " ").map { String($0) }
+            let category = input[1]
+
+            categoryCounts[category, default: 0] += 1
             
         }
         
-        let result = dic.values.reduce(1) { $0 * ($1.count + 1) } - 1
+        let result = categoryCounts.values.reduce(1) { $0 * ($1 + 1) } - 1
         print(result)
     }
-    
     
     
 }

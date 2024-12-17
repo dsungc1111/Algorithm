@@ -16,6 +16,7 @@
 		8B23589E2D0FE903003544B8 /* FashionKing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B23589D2D0FE903003544B8 /* FashionKing.swift */; };
 		8B2358A02D0FF992003544B8 /* SumOfNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B23589F2D0FF992003544B8 /* SumOfNumbers.swift */; };
 		8B2358A22D100007003544B8 /* Work.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2358A12D100007003544B8 /* Work.swift */; };
+		8B817B492D1130B10073B826 /* SumOfNumberss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B817B482D1130B10073B826 /* SumOfNumberss.swift */; };
 		8B9222172D0BF5CA0035D1E7 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9222162D0BF5CA0035D1E7 /* main.swift */; };
 		8B92221F2D0D40690035D1E7 /* FindFakeDwarf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B92221E2D0D40690035D1E7 /* FindFakeDwarf.swift */; };
 		8B9222212D0D40FB0035D1E7 /* AlphabetCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9222202D0D40FB0035D1E7 /* AlphabetCount.swift */; };
@@ -44,6 +45,7 @@
 		8B23589D2D0FE903003544B8 /* FashionKing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FashionKing.swift; sourceTree = "<group>"; };
 		8B23589F2D0FF992003544B8 /* SumOfNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumOfNumbers.swift; sourceTree = "<group>"; };
 		8B2358A12D100007003544B8 /* Work.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Work.swift; sourceTree = "<group>"; };
+		8B817B482D1130B10073B826 /* SumOfNumberss.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumOfNumberss.swift; sourceTree = "<group>"; };
 		8B9222132D0BF5CA0035D1E7 /* Study */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Study; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B9222162D0BF5CA0035D1E7 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		8B92221E2D0D40690035D1E7 /* FindFakeDwarf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindFakeDwarf.swift; sourceTree = "<group>"; };
@@ -92,6 +94,14 @@
 			path = Day4;
 			sourceTree = "<group>";
 		};
+		8B817B472D1130820073B826 /* Day5 */ = {
+			isa = PBXGroup;
+			children = (
+				8B817B482D1130B10073B826 /* SumOfNumberss.swift */,
+			);
+			path = Day5;
+			sourceTree = "<group>";
+		};
 		8B92220A2D0BF5CA0035D1E7 = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +126,7 @@
 				8B23588E2D0D481A003544B8 /* Day2 */,
 				8B2358952D0E69AE003544B8 /* Day3 */,
 				8B23589C2D0FE8E0003544B8 /* Day4 */,
+				8B817B472D1130820073B826 /* Day5 */,
 			);
 			path = Study;
 			sourceTree = "<group>";
@@ -193,6 +204,7 @@
 				8B2358A22D100007003544B8 /* Work.swift in Sources */,
 				8B2358992D0E716E003544B8 /* Temperature.swift in Sources */,
 				8B2358A02D0FF992003544B8 /* SumOfNumbers.swift in Sources */,
+				8B817B492D1130B10073B826 /* SumOfNumberss.swift in Sources */,
 				8B2358902D0D4857003544B8 /* Palindrome.swift in Sources */,
 				8B2358922D0D4C62003544B8 /* BasketBall.swift in Sources */,
 				8B9222172D0BF5CA0035D1E7 /* main.swift in Sources */,
