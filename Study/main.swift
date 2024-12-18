@@ -37,5 +37,9 @@ getROT13()
 
 // 5일차
 //ThingsTodo()
-sumOfNumberss()
+//sumOfNumberss()
 
+// 6일파
+//calculateChange()
+//sumOfArray()
+findNum()

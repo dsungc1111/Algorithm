@@ -16,6 +16,9 @@
 		8B23589E2D0FE903003544B8 /* FashionKing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B23589D2D0FE903003544B8 /* FashionKing.swift */; };
 		8B2358A02D0FF992003544B8 /* SumOfNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B23589F2D0FF992003544B8 /* SumOfNumbers.swift */; };
 		8B2358A22D100007003544B8 /* Work.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2358A12D100007003544B8 /* Work.swift */; };
+		8B3100582D12573E00D2FA8B /* CalculateChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3100572D12573E00D2FA8B /* CalculateChange.swift */; };
+		8B31005A2D12596E00D2FA8B /* SumOfArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3100592D12596E00D2FA8B /* SumOfArray.swift */; };
+		8B31005C2D1261AB00D2FA8B /* FindNum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B31005B2D1261AB00D2FA8B /* FindNum.swift */; };
 		8B817B492D1130B10073B826 /* SumOfNumberss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B817B482D1130B10073B826 /* SumOfNumberss.swift */; };
 		8B9222172D0BF5CA0035D1E7 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9222162D0BF5CA0035D1E7 /* main.swift */; };
 		8B92221F2D0D40690035D1E7 /* FindFakeDwarf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B92221E2D0D40690035D1E7 /* FindFakeDwarf.swift */; };
@@ -45,6 +48,9 @@
 		8B23589D2D0FE903003544B8 /* FashionKing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FashionKing.swift; sourceTree = "<group>"; };
 		8B23589F2D0FF992003544B8 /* SumOfNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumOfNumbers.swift; sourceTree = "<group>"; };
 		8B2358A12D100007003544B8 /* Work.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Work.swift; sourceTree = "<group>"; };
+		8B3100572D12573E00D2FA8B /* CalculateChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateChange.swift; sourceTree = "<group>"; };
+		8B3100592D12596E00D2FA8B /* SumOfArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumOfArray.swift; sourceTree = "<group>"; };
+		8B31005B2D1261AB00D2FA8B /* FindNum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindNum.swift; sourceTree = "<group>"; };
 		8B817B482D1130B10073B826 /* SumOfNumberss.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumOfNumberss.swift; sourceTree = "<group>"; };
 		8B9222132D0BF5CA0035D1E7 /* Study */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Study; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B9222162D0BF5CA0035D1E7 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -94,6 +100,16 @@
 			path = Day4;
 			sourceTree = "<group>";
 		};
+		8B3100562D12571000D2FA8B /* Day6 */ = {
+			isa = PBXGroup;
+			children = (
+				8B3100572D12573E00D2FA8B /* CalculateChange.swift */,
+				8B3100592D12596E00D2FA8B /* SumOfArray.swift */,
+				8B31005B2D1261AB00D2FA8B /* FindNum.swift */,
+			);
+			path = Day6;
+			sourceTree = "<group>";
+		};
 		8B817B472D1130820073B826 /* Day5 */ = {
 			isa = PBXGroup;
 			children = (
@@ -127,6 +143,7 @@
 				8B2358952D0E69AE003544B8 /* Day3 */,
 				8B23589C2D0FE8E0003544B8 /* Day4 */,
 				8B817B472D1130820073B826 /* Day5 */,
+				8B3100562D12571000D2FA8B /* Day6 */,
 			);
 			path = Study;
 			sourceTree = "<group>";
@@ -199,9 +216,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B3100582D12573E00D2FA8B /* CalculateChange.swift in Sources */,
 				8B2358972D0E69BF003544B8 /* MissKorea.swift in Sources */,
 				8B9222232D0D41AB0035D1E7 /* TruckParking.swift in Sources */,
 				8B2358A22D100007003544B8 /* Work.swift in Sources */,
+				8B31005A2D12596E00D2FA8B /* SumOfArray.swift in Sources */,
+				8B31005C2D1261AB00D2FA8B /* FindNum.swift in Sources */,
 				8B2358992D0E716E003544B8 /* Temperature.swift in Sources */,
 				8B2358A02D0FF992003544B8 /* SumOfNumbers.swift in Sources */,
 				8B817B492D1130B10073B826 /* SumOfNumberss.swift in Sources */,
