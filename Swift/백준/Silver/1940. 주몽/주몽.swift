@@ -1,22 +1,24 @@
+
 import Foundation
 
-
-func acculatedSum() {
+func threejumong() {
     
-    let N = Int(readLine()!)!
-    let M = Int(readLine()!)!
     
-    var mat = readLine()!.split(separator: " ").map { Int($0)! }
+    let N = Int(readLine()!)! // 재료 개수
+    let M = Int(readLine()!)! // 갑옷을 만드는 데 필요한 수
     
-    mat.sort()
+    var arr = readLine()!.split(separator: " ").map { Int($0)! }
+    
+    arr.sort()
     
     var end = N - 1
+    var sum = 0
     var count = 0
     var start = 0
-   
-    while start < end   {
+    
+    for _ in 0..<N {
         
-        let sum = mat[start] + mat[end]
+        sum = arr[start] + arr[end]
         
         if sum < M {
             start += 1
@@ -28,7 +30,10 @@ func acculatedSum() {
             end -= 1
         }
         
+        if start >= end { break }
+        
     }
     print(count)
+    
 }
-acculatedSum()
+threejumong()
