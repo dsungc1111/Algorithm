@@ -42,4 +42,32 @@ getROT13()
 // 6일파
 //calculateChange()
 //sumOfArray()
-findNum()
+//findNum()
+
+//7일차
+
+//minimumOilPrice()
+
+//8일차
+//jumong()
+
+
+//누적합
+
+
+//acculatedSum()
+
+//newperson()
+
+
+
+//10일차
+//fashionShin()
+//makePall()
+//threejumong()
+
+
+// 11일차
+//goodword()
+//multiplication()
+findOne()
