@@ -70,4 +70,43 @@ getROT13()
 // 11일차
 //goodword()
 //multiplication()
-findOne()
+//findOne()
+
+
+// day 12
+//maze2()
+//organic()
+
+//day3
+//maze3()
+//organic2()
+//waterFall()
+
+
+//maze4()
+//organic3()
+
+// day16
+//stock()
+//maze5()
+
+//day17
+//sum2()
+//picture()
+
+// day 18
+//treasure()
+//area()
+
+// day 19
+//cow()
+//number2()
+//apple()
+
+// day 20
+//bank()
+//frequency()
+
+//exchangeCoin()
+//untilOne()
+directions()
