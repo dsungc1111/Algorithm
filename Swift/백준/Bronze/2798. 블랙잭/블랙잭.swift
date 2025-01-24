@@ -1,4 +1,3 @@
-
 import Foundation
 
 
@@ -10,11 +9,9 @@ func blackjack() {
     var card = readLine()!.split(separator: " ").map { Int($0)! }
     card.sort()
     
-    var maxSum = Int.min
-   
+    var maxSum = 0
     
-    
-    for i in 0..<N-2 {
+    for i in 0..<N {
         var left = i + 1
         var right = N - 1
         
@@ -27,9 +24,10 @@ func blackjack() {
                 maxSum = max(maxSum, sum)
                 left += 1
             }
+            
         }
     }
-    
     print(maxSum)
+   
 }
 blackjack()
