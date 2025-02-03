@@ -1,26 +1,22 @@
 import Foundation
 
-func minimumOilPrice() {
+func oil2() {
     
-    let numOFCities = Int(readLine()!)!
+    let N = Int(readLine()!)!
+    let len = readLine()!.split(separator: " ").map { Int($0)! }
+    let price = readLine()!.split(separator: " ").map { Int($0)! }
     
-    let lengthOfRoad = readLine()!.split(separator: " ").map { Int($0)! }
+    var sum = 0
+    var minprice = price[0]
     
-    let priceOFOil = readLine()!.split(separator: " ").map { Int($0)! }
-    
-    var min = priceOFOil[0]
-    var result = 0
-    
-    for i in 0..<numOFCities - 1 {
+    for i in 0..<len.count {
         
-        if priceOFOil[i] < min {
-            print(priceOFOil[i], min)
-            min = priceOFOil[i]
+        if minprice > price[i] {
+            minprice = price[i]
         }
-        result += min * lengthOfRoad[i]
+        sum += minprice * len[i]
     }
+    print(sum)
     
-    
-    print(result)
 }
-minimumOilPrice()
+oil2()
